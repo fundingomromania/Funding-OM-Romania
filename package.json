@@ -2,7 +2,7 @@
   "name": "fundingom",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joinstack.github.io/FundingOMRomania",
+  "homepage": "https://fundingomromania.github.io",
   "devDependencies": {
     "cross-env": "^5.1.4",
     "gh-pages": "^2.1.1",
