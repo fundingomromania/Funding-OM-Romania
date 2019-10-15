@@ -4,7 +4,7 @@ The codebase is now feature complete; please submit bug fixes via pull requests 
 
 ## Getting started
 
-You can view a live demo over at http://fundingomromania.com/
+You can view a live demo over at https://fundingomromania.github.io
 
 To get the frontend running locally:
 
