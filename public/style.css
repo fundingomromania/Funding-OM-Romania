@@ -1,0 +1,354 @@
+
+.btn-primary, disabled.btn-primary {
+    background-color: #D22630;
+    border-color: #D22630;
+}
+
+.campaign-content .donation-details {
+    font-family: "Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-align: center;
+}
+
+.donate-button {
+    background-color: #D22630;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.donateButtonRedirect {
+    background-color: #D22630;
+    color: white;
+    padding: 8px 50px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.donations-number, 
+.days .days-number {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.campaign-content .donation-details .amount {
+    color: #4BB24E;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.campaign-content .projectDetails .donation-details {
+    text-align: center;
+}
+
+.donations p {
+    margin-top: 0;
+}
+
+.campaign-content .donation-time .text-under {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.campaign-content .donations p {
+    margin-top: 0;
+}
+
+.campaign-content .donations .donations-number {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.campaign-content .days .days-number {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.campaign-page .campaign-content p{
+    font-family: 'Segoe UI'
+}
+
+.form-paypal {
+    width: 100%;
+}
+
+.out-off {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top:15px;
+}
+
+.campaignTitle {
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+
+.campaign-content .top .share p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 22px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+.close:hover {
+    opacity: 1;
+}
+  
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+  
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}  
+
+.ReactModal__Content {
+    width: 500px;
+}
+
+.inputDonationAmount {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.modalDonationText {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar {
+    padding: .5rem .5rem;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #D22630!important;
+}
+
+.nav-pills.outline-active .nav-link.active {
+    border-bottom: 2px #D22630!important;
+    color: #D22630!important;
+}
+
+a {
+    color: #D22630;
+    text-decoration: none;
+}
+
+.form-control {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #D22630;
+    border-radius: 30px;
+    border: 1px solid #D22630;
+}
+
+.title-settings {
+   color: #D22630;
+   padding-bottom: 30px;
+}
+
+.homePage .showcase-bg {
+    background-color: #D22630;
+    height: auto;
+}
+
+.projectsPage .footer {
+    position: static;
+}
+
+.footer {
+    background-color: #D22630;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+
+.footer-links a {
+    color: white;
+}
+
+.hr50 {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    margin: 0 5%;
+    padding-top: 20px;
+}
+
+.campaignSettingsTitle {
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+    .homePage .showcase-text {
+        padding: 10%;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .ReactModal__Content {
+        width: 90%;
+    }
+    .inputDonationAmount {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+.homePage .showcase-text {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.homePage .showcase-img {
+    position: relative;
+    background-image: url(../img/showcaseimg.jpg);
+    background-color: #D22630;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-page .user-info h4 {
+    color: #fff;
+    
+}
+
+.profile-page .user-info {
+    background: #D22630;
+}
+
+.profile-page .user-info .action-btn {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.containerEditDelCampaign,
+.containerEditDelCampaign .btn {
+    margin-left: 15px; 
+}
+
+.imgProfile {
+    margin-bottom: 10px;
+}
+
+.share .SocialMediaShareButton {
+    color: #D22630;
+    width:30px;
+    display: inline-block
+}
+
+
+@media only screen and (max-width: 900px){
+    .homePage .showcase-text {
+        width: 90%;
+        padding: 10%;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .top {
+        width: 90%;
+        margin: auto;
+    }
+
+    .donate-button {
+        padding: 10px 35px;
+    }
+
+    .share.col-md-12 {
+        width:100%;
+    }
+
+    .donation-amount .col-md-12 {
+        width: 100%;
+    }
+
+    .donation-time,
+    .donation-time .donations,
+    .donation-time .days {
+        width: 100%;
+    }
+
+    .donationBtnContainer {
+        width: 100%;
+    }
+
+    .campaignTitle {
+        font-size: 35px;
+    }
+
+    .footer-links ul li {
+        margin: 0 3%;
+        padding-top: 20px;
+    }
+}
