@@ -12,7 +12,7 @@ export default class ComingSoon extends Component {
 
     componentDidMount() {
         this.interval = setInterval(() => {
-        const countDownDate = new Date("Oct 16, 2019 23:00:00").getTime();
+        const countDownDate = new Date("Oct 18, 2019 15:00:00").getTime();
         const now = new Date().getTime();
         const distance = countDownDate - now;
         const days = Math.floor(distance / (1000 * 60 * 60 * 24));
