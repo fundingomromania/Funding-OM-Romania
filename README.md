@@ -26,7 +26,7 @@ If you want to change the API URL to a local server, simply edit `src/agent.js` 
 
 ## Functionality overview
 
-The example application is a funding donation platform (i.e. a Medium.com clone) called "OM". It uses a custom API for all requests, including authentication.
+The example application is a funding donation platform called "OM". It uses a custom API for all requests, including authentication.
 
 **General functionality:**
 
