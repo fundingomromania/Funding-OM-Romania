@@ -19,7 +19,7 @@ class Footer extends React.Component {
             </div>
             <div className="copyright">
             <p>
-                Copyright - 2019 - Funding OM Romania - All rights reserved.
+                Copyright - 2020 - Funding OM Romania - All rights reserved.
             </p>
             </div>
       </footer>
